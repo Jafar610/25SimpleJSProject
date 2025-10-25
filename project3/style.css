@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(243, 165, 76);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 95%;
+    height: 100vh;
+}
+.container .btn{
+position: absolute;
+bottom:20px;
+right: 200px;
+color: rgb(247, 235, 235);
+
+
+
+}
+.quotes{
+    max-width: 900px;
+    height: 400px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    color: rgb(82, 80, 80);
+    border-radius: 10px;
+    text-align: center;
+
+}
+.quotes p, h1{
+    font-size:1.5rem;
+}
+
+@media(max-width:480px){
+   .quotes p, h1{
+    font-size:1rem;
+} 
+}
