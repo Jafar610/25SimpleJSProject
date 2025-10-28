@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    border: 2px solid gray;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightcyan;
+    border-radius: 10px;
+    
+}
+h1{
+    font-size: 3rem;
+}
+#count{
+    font-size:9rem
+    
+}
+.btn{
+    margin:10px 10px 20px 10px;
+  
+}
